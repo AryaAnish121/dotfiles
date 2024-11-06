@@ -1,0 +1,55 @@
+{
+    "spacing": 12,
+    "modules-left": [
+        "custom/archicon",
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "hyprland/window"
+    ],
+    "modules-right": [
+        "pulseaudio",
+        "group/hardware",
+        "clock",
+        "custom/power"
+    ],
+    "hyprland/workspaces": {
+        "format": ""
+    },
+    "custom/archicon": {
+        "format": "",
+        "tooltip": false,
+        "on-click": "rofi -show drun"
+    },
+    "clock": {
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+    "group/hardware": {
+        "orientation": "horizontal",
+        "modules": [
+            "cpu",
+            "memory"
+        ]
+    },
+    "cpu": {
+        "format": "C {usage}% / ",
+        "tooltip": false
+    },
+    "memory": {
+        "format": "M {}%"
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": " {volume}%",
+        "format-icons": {
+            "default": [" ", "  ", "    "]
+        },
+        "on-click": "pavucontrol"
+    },
+    "custom/power": {
+        "format" : "⏻ ",
+		"tooltip": false,
+		"on-click": "wlogout"
+    }
+}

@@ -1,0 +1,83 @@
+* {
+    font-family: "Fira Code", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    all: initial;
+    font-weight: bold;
+}
+
+window#waybar {
+    background: transparent;
+    margin-bottom: 0;
+}
+
+window#waybar > box {
+    margin: 0 25px;
+    margin-top: 15px;
+}
+
+#custom-archicon,
+#window,
+#window,
+#pulseaudio,
+#hardware,
+#clock {
+    padding: 5px 15px;
+    border-radius: 20px;
+    background: rgba(147, 155, 160, 0.582);
+    font-weight: bold;
+}
+
+tooltip {
+    background: rgba(0, 0, 0, 0.74);
+    border-radius: 5px;
+}
+
+#window,
+#clock {
+    color: rgb(233, 233, 233);
+    background: rgba(12, 56, 94, 0.822);
+    border: 1.5px solid rgba(230, 230, 230, 0.651);
+}
+
+#custom-power{
+    padding: 5px 10px;
+}
+
+#custom-archicon {
+    padding-left: 13.5px;
+}
+
+#custom-power {
+    padding-right: 10px;
+}
+
+#custom-archicon,
+#custom-power {
+    font-size: 15px;
+}
+
+#workspaces {
+    padding: 5px 7.5px;
+    border-radius: 20px;
+    background: rgba(147, 155, 160, 0.582);
+    font-weight: bold;
+}
+
+#workspaces button {
+    background: rgba(177, 176, 176, 0.473);
+    min-width: 25px;
+    border-radius: 20px;
+    margin-right: 7.5px;
+    transition: all .15s linear;
+}
+
+#workspaces button.active {
+    background: #0c385e;
+    min-width: 50px;
+}
+
+#workspaces button:nth-last-child(1) {
+    margin-right: 0;
+}
