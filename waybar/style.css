@@ -37,7 +37,7 @@ tooltip {
 #window,
 #clock {
     color: rgb(233, 233, 233);
-    background: rgba(12, 56, 94, 0.822);
+    background: rgba(56, 46, 83, 0.514);
     border: 1.5px solid rgba(230, 230, 230, 0.651);
 }
 
@@ -74,7 +74,7 @@ tooltip {
 }
 
 #workspaces button.active {
-    background: #0c385e;
+    background: #382e53;
     min-width: 50px;
 }
 
