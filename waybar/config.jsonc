@@ -19,7 +19,7 @@
     "custom/archicon": {
         "format": "",
         "tooltip": false,
-        "on-click": "rofi -show drun"
+        "on-click": "/home/arya/.config/rofi/launchers/type-3/launcher.sh"
     },
     "clock": {
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
