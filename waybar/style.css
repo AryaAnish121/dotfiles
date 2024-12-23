@@ -14,15 +14,13 @@ tooltip * {
 }
 
 #workspaces {
-  /* background: @color14; */
-  background: #e3d9af;
+  background: @color14;
   padding: 6px 8px;
   border-radius: 15px;
 }
 
 #workspaces button {
-  /* background: @color0; */
-  background: #1394a6;
+  background: @color0;
   margin-right: 8px;
   border-radius: 12px;
   min-width: 20px;
