@@ -39,6 +39,7 @@
   // },
   "pulseaudio": {
     "format": "{icon} {volume}%",
+    "format-muted": "   {volume}%",
     "format-bluetooth": "{volume}% {icon}",
     "format-icons": {
       "default": [" ", "  ", "   "]
