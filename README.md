@@ -1,7 +1,4 @@
-
-# Project Title
-
-A brief description of what this project does and who it's for
+requirements:
 
 hyprland-qtutils
 yay
@@ -27,3 +24,5 @@ cbonsai
 nighttab
 yt-x
 spotify
+rofi type2 shared change to custom colors
+hyprshot
