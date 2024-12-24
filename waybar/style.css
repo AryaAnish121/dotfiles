@@ -46,3 +46,7 @@ tooltip * {
   padding: 6px 10px;
   border-radius: 15px;
 }
+
+#custom-power {
+  color: @color0;
+}
