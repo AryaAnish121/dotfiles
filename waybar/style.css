@@ -41,8 +41,8 @@ tooltip * {
 #pulseaudio {
   font-weight: bold;
   margin-right: 10px;
-  background: @foreground;
-  color: @background;
+  background: @color14;
+  color: @color0;
   padding: 6px 10px;
   border-radius: 15px;
 }
