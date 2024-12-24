@@ -26,3 +26,4 @@ yt-x
 spotify
 rofi type2 shared change to custom colors
 hyprshot
+tty-clock
