@@ -1,0 +1,55 @@
+// -*- mode: jsonc -*-
+{
+  "reload_style_on_change": true,  
+  "layer": "top",
+  "spacing": 4,
+  "margin-left": 20,
+  "margin-right": 20,
+  "margin-top": 15,
+  "modules-left": ["hyprland/workspaces"],
+  "modules-right": [
+    "pulseaudio",
+    "cpu",
+    "memory",
+    // "temperature",
+    "clock",
+    "custom/power"
+  ],
+  "hyprland/workspaces": {
+    "format": ""
+  },
+  "clock": {
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": "   {:%d-%m-%Y}",
+    "format": "󰥔   {:%H:%M %a}"
+  },
+  "cpu": {
+    "format": "C {usage}%",
+    "tooltip": false
+  },
+  "memory": {
+    "format": "M {}%"
+  },
+  // "temperature": {
+  //     // "thermal-zone": 2,
+  //     // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+  //     "critical-threshold": 80,
+  //     // "format-critical": "{temperatureC}°C {icon}",
+  //     "format": "{temperatureC}°C {icon}",
+  //     "format-icons": ["", "", ""]
+  // },
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": "   {volume}%",
+    "format-bluetooth": "{volume}% {icon}",
+    "format-icons": {
+      "default": [" ", "  ", "   "]
+    },
+    "on-click": "pavucontrol"
+  },
+  "custom/power": {
+    "format": "⏻ ",
+    "tooltip": false,
+    "on-click": "wlogout"
+  }
+}

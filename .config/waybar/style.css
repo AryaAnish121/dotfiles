@@ -1,0 +1,52 @@
+@import url("../../.cache/wal/colors-waybar.css");
+
+* {
+  all: initial;
+  font-size: 14px;
+}
+
+tooltip * {
+  color: @background;
+  background: @foreground;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 1px 2px;
+}
+
+#workspaces {
+  background: @color14;
+  padding: 6px 8px;
+  border-radius: 15px;
+}
+
+#workspaces button {
+  background: @color0;
+  margin-right: 8px;
+  border-radius: 12px;
+  min-width: 20px;
+  transition: all 0.07s linear;
+}
+
+#workspaces button.active {
+  min-width: 42px;
+}
+
+#workspaces button:nth-last-child(1) {
+  margin-right: 0px;
+}
+
+#clock,
+#cpu,
+#memory,
+#pulseaudio {
+  font-weight: bold;
+  margin-right: 10px;
+  background: @color14;
+  color: @color0;
+  padding: 6px 10px;
+  border-radius: 15px;
+}
+
+#custom-power {
+  color: @color0;
+}
