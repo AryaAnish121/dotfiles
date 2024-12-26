@@ -2,6 +2,7 @@ requirements:
 
 hyprland-qtutils
 yay
+wlogout
 hyprpaper (12, 19, 18, 4, 15)
 rofi
 waybar
