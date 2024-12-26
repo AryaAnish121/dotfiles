@@ -34,3 +34,4 @@ plymouth (theme: https://github.com/adi1090x/plymouth-themes) -- optimus
   cantarell-fonts
   ttf-dejavu
 pavucontrol
+vlc
