@@ -29,3 +29,6 @@ hyprshot
 tty-clock
 swaync
 hypridle
+plymouth (theme: https://github.com/adi1090x/plymouth-themes) -- optimus
+  cantarell-fonts
+  ttf-dejavu
