@@ -35,3 +35,4 @@ plymouth (theme: https://github.com/adi1090x/plymouth-themes) -- optimus
   ttf-dejavu
 pavucontrol
 vlc
+recommended -> resources and mission center for system monitoring
