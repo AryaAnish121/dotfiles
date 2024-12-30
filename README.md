@@ -19,6 +19,7 @@ obs-studio
 grub-theme
 nvchad
 pywal
+pywalfox
 cava
 cmatrix
 cbonsai
