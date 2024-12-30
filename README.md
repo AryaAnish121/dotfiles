@@ -20,6 +20,8 @@ grub-theme
 nvchad
 pywal
 pywalfox
+Wal theme vscode
+xdg-desktop-portal-hyprland
 cava
 cmatrix
 cbonsai
