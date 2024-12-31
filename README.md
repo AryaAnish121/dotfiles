@@ -38,5 +38,5 @@ plymouth (theme: https://github.com/adi1090x/plymouth-themes) -- optimus
   ttf-dejavu
 pavucontrol
 vlc
-recommended -> resources and mission center for system monitoring, gapless music player, keymuch typing app
+recommended -> resources and mission center for system monitoring, gapless music player (g4music), keymuch typing app mousai
 san francisco font
