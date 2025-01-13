@@ -41,5 +41,5 @@ vlc\
 recommended -> resources and mission center for system monitoring, gapless music player (g4music), keymuch typing app mousai zen browser (react dev tools, ublock origin, return yt dislikes)\
 san francisco font\
 macos cursor (https://github.com/ful1e5/apple_cursor) \
-fix flatpak cursor - arch wiki
+fix flatpak cursor - arch wiki\
 custom neofetch theme (https://github.com/Chick2D/neofetch-themes)
