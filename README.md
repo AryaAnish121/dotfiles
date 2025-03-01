@@ -4,7 +4,7 @@ sudo pacman -S hyprpaper rofi waybar nwg-look gnome-themes-extra btop neofetch p
 ```
 
 ```
-yay -S wlogout hyprshot tty-clock ttf-jetbrains-mono-nerd python-pywal16 cbonsai cmatrix cava apple_cursor
+yay -S wlogout hyprshot tty-clock ttf-jetbrains-mono-nerd python-pywal16 cbonsai cmatrix cava apple_cursor python-pywalfox visual-studio-code-bin
 ```
 
 requirements:
