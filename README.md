@@ -1,6 +1,6 @@
 Simple Install Script (Installs most packages):
 ```
-sudo pacman -S hyprpaper rofi waybar nwg-look gnome-themes-extra btop neofetch polkit-gnome obs-studio xdg-desktop-portal-hyprland swaync hypridle pavucontrol vlc spotify-launcher
+sudo pacman -S hyprpaper rofi waybar nwg-look gnome-themes-extra btop neofetch polkit-gnome obs-studio xdg-desktop-portal-hyprland swaync hypridle pavucontrol vlc spotify-launcher zsh
 ```
 
 ```
