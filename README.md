@@ -1,3 +1,12 @@
+Simple Install Script (Installs most packages):
+```
+sudo pacman -S hyprpaper rofi waybar nwg-look gnome-themes-extra btop neofetch polkit-gnome obs-studio xdg-desktop-portal-hyprland swaync hypridle pavucontrol vlc spotify-launcher
+```
+
+```
+yay -S wlogout hyprshot tty-clock ttf-jetbrains-mono-nerd python-pywal16 cbonsai cmatrix
+```
+
 requirements:
 
 hyprland-qtutils\
