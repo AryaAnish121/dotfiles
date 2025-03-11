@@ -52,4 +52,4 @@ san francisco font\
 macos cursor (https://github.com/ful1e5/apple_cursor) \
 fix flatpak cursor - arch wiki\
 custom neofetch theme (https://github.com/Chick2D/neofetch-themes) \
-spicetify
+spicetify (onepunch dark)
